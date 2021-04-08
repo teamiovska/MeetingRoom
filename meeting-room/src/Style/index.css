@@ -1,0 +1,181 @@
+html {    
+  height:100%;
+  overflow: hidden;
+}
+body{
+    background: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: monospace;  
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.menu{
+    background: black;
+    height: 50px;
+    color: white;
+}
+.screen {
+    margin-top: 160px;
+}
+.booking, .free-book{
+    background-color: #3d9a67e0; 
+    color: white;
+    height: 100vh; 
+}
+.free-book h1, h3, h6 {
+    padding: 15px;
+}
+.booking p, h1, Button {
+    padding: 15px;
+}
+.booking p {
+    margin:55px;
+}
+.screen input{
+    margin: 55px;
+}
+.waiting-error Button{
+    margin: 55px;
+}
+.waiting, .waiting-error {
+    background-color: #e2a03ecc;
+    color: white;
+    height: 100vh;
+}
+.waiting h1, h5, input{
+    padding: 15px;
+}
+.waiting-error  h1, h5, Button {
+    padding: 15px;
+}
+.booked {
+    background-color: #cc0444ad;
+    color: white;
+    height: 100vh;
+}
+.booked  h1, h5, h6 {
+    padding: 35px;
+}
+.plus{
+    height: 185px;
+    background-color: #3a3a3bab;
+    font-size: 70px;
+    color: #ffffffbd;
+    padding: 30px;
+}
+.plus:hover{
+    background-color: #cc0444;
+}
+.screen span{
+    background: #3a3a3be8;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 12px;
+    margin: 15px;
+}
+.screen span:hover{
+    background: #3a3a3bbd;
+    cursor: pointer;
+}
+.screen span:active{
+    background: #cc0444;
+    cursor: pointer;
+}
+.reservations{
+    background-color: white;
+    color: #3a3a3b;
+    height: 100vh;
+    padding: 0;
+    text-align: center;
+}
+.reservations p{
+    background: #8080808c;
+    font-size: 14px;
+    padding: 5px;
+}
+.reservations span:first-child{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pick-button {
+    color: #3a3a3b;
+    border: 3a3a3b;
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.pick-button:hover{
+    background-color: #3a3a3b;
+    color: white;
+}
+.pick-button:active{
+    background-color: #3a3a3b40;;
+}
+.pick-button:focus{
+    background-color: #3a3a3b40;;
+}
+input {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #3a3a3b;
+    color: #3a3a3b;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+input::placeholder{
+    color: #3a3a3b;
+}
+.buttons{
+    padding: 0px;
+    position: absolute;
+    bottom: 52px;
+}
+.buttons:nth-child(2){
+    right: 0
+}
+.buttons Button {
+    border-radius: 0px;
+    background-color: #cc0444;
+    border: none;
+    height: 70px
+}
+.buttons Button:hover{
+    background-color: #3a3a3b;
+}
+.title{
+    font-size: 20px;
+    line-height: 2.5;
+    padding-left: 30px;
+}
+.date-time {
+    text-align: right;
+    padding-right: 30px;
+}
+.date-time span:first-child {
+    font-size: 16px;
+    line-height: 2;
+}
+.date-time span:nth-child(2){
+    font-size: 30px;
+    padding: 15px;
+    cursor: pointer;
+}
+.cursor {
+    cursor: pointer;
+}
+
+@media screen and (max-width:680px) {
+    html {
+      overflow-y: scroll !important;
+    }
+    svg{
+        display: none;
+    }
+  }
